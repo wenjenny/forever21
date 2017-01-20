@@ -1,0 +1,27 @@
+.content {
+   margin: 30px 30px 30px 30px; 
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+.nav-wrapper {
+    background-color: #ef6c00;
+}
+nav{
+	margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+footer.page-footer {
+    background-color: #ef6c00;
+}
+
+.content {
+    margin: 30px;
+}
+
+.about {
+    padding-left: 150px;
+}

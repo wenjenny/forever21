@@ -15,27 +15,38 @@
 
 		<link rel='shortcut icon' href='images/yellowpill.ico'>
 	</head>
-
-	<main>
-		<body>
-			<div class="navbar-fixed">
-				<nav>
-					<div class="nav-wrapper #00695c teal darken-3">
-						<ul id="nav-mobile" class="right hide-on-med-and-down">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li>
-								<a class="waves-effect waves-light btn-large teal lighten-2" href="chooseadv.html">Choose your own adventure!</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-			<div class="content">
-				<center>
-					<h1>Choose your own adventure!</h1>
-				</center>
-			</div>
-		</body>
-	</main>
+	<body>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper #00695c teal darken-3">
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li>
+							<a class="waves-effect waves-light btn-large teal lighten-2" href="chooseadv.html">Choose your own adventure!</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="content">
+			<h1>Choose your own adventure!</h1>
+			<p>What happens when this young individual starts getting along with the wrong crowd? Join us in a series of bad decision making (or not) where we explore the consequences of drugs and whether or not the impacts of your choices truly define who you are. Click the start button to begin your adventure as Dorian Gray. What can he possibly do next?!? You decide!
+			Tags:  #Bad fanfiction of Dorian Gray in College doing stuff; ruining his life #Entirely inaccurate purely bc no one swears. Not even once. #Drug Lord Henry #Forever 21 #Grown a** men being babies</p>
+			<button onclick="myFunction()">Start</button>
+			<br/>
+			<a id="lolwhatisthis">hi</a>
+			<script>
+				function myFunction() {
+				    document.getElementById("lolwhatisthis").innerHTML = '<br/>' + '<img src="images/placeholder.png" alt="Mountain View" style="width:304px;height:228px;">' 
+				    														+ '<br/>' + 'ughghghgghg' + '<br/>' + '<button onclick="myFunction2()">Next</button>';
+				    //<img src="images/placeholder" alt="Mountain View" style="width:304px;height:228px;">
+				} //innerHTML changes content of the element
+				//document.write() leads to a different window -- don't use!!
+				function myFunction2(){
+					document.write("help");
+				}
+			</script>
+		</div>
+	</body>
 </html>

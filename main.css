@@ -7,6 +7,9 @@
     flex-direction: column;
     flex: 1 0 auto;
   }*/
+p{
+	margin: 50px;
+}
 .nav-wrapper {
     background-color: #880e4f;
 }

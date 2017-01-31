@@ -1,6 +1,6 @@
-.content {
-   margin: 30px 30px 30px 30px; 
-}
+/*.content {
+   margin: 10px 10px 80px 10px; 
+}*/
 /*body {
     display: flex;
     min-height: 100vh;
@@ -8,7 +8,7 @@
     flex: 1 0 auto;
   }*/
 .nav-wrapper {
-    background-color: #ef6c00;
+    background-color: #880e4f;
 }
 nav{
 	margin: 0px;
@@ -16,7 +16,7 @@ nav{
     position: relative;
 }
 footer.page-footer {
-    background-color: #00695c;
+    background-color: #880e4f;
 }
 
 .content {

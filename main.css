@@ -20,8 +20,8 @@ nav{
     position: relative;
 }
 footer.page-footer {
-    background-color: red;
-    position: fixed;
+    background-color: #880e4f;
+    position: fix;
 }
 
 .content {

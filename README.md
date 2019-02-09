@@ -1,3 +1,3 @@
 # forever21
 These jokes never grow old!
-site: https://bananabot.github.io/forever21/
+site: https://jennywen144.github.io/forever21/index.html

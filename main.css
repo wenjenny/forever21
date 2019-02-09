@@ -21,6 +21,7 @@ nav{
 }
 footer.page-footer {
     background-color: #880e4f;
+    position: fixed;
 }
 
 .content {

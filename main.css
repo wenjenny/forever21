@@ -15,12 +15,15 @@ p{
     background-color: #880e4f;
 }
 nav{
-	margin: 0px;
+    margin: 0px;
     padding: 0px;
     position: relative;
 }
 footer.page-footer {
-    background-color: #880e4f;
+    background-color: #ffffff;
+}
+.footer {
+	position: fixed;
 }
 
 .content {
